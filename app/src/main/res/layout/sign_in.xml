@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="60">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_margin="25dp"
+        >
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Sign In"
+            android:layout_centerVertical="true"
+            android:gravity="center|left"
+            android:textSize="30dp"
+            android:textColor="#962AE3"/>
+        <TextView
+            android:id="@+id/tDummy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvSignIn"
+            android:layout_marginBottom="-36dp"
+            android:gravity="center|left"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginHorizontal="25dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/character"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:textColor="#6237E2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="username"
+            android:paddingLeft="40dp"
+            android:textColorHint="#5F1F1D1D"/>
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/key"
+            android:textColor="#6237E2"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingLeft="40dp"
+            android:textColorHint="#5F1F1D1D" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_marginHorizontal="25dp"
+        >
+
+
+    </RelativeLayout>
+
+</LinearLayout>
