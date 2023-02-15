@@ -3,7 +3,7 @@
     <string name="character">\u0040</string>
     <string name="mail">\uf0e0</string>
     <string name="key">\uf084</string>
-    <string name="star">\uf005</string>2b
-    <string name="plus">\uf0fe</string>f1d8
-    <string name="plane">\uf1d8</string>f1d8
+    <string name="star">\uf005</string>
+    <string name="plus">\uf0fe</string>
+    <string name="plane">\uf1d8</string>
 </resources>
